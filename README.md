@@ -72,9 +72,10 @@ If you learn best by reading documentation first, then be sure to read the linke
 
 ## Final Thoughts
 
-We practiced with a lot of potentially new concepts, but didn't talk a lot about best practices for each one of them.
+We practiced with a lot of potentially new concepts, but didn't talk a lot about best practices for each one of them. Your cohort may review some of the following ideas together, but if not, you should feel free to explore on your own.
 
 If you feel comfortable with everything explored in the exercises listed here, you'll want to explore some of the following topics:
 
+- One really important part of TypeScript not covered here is [type inference](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-annotations-on-variables). In short, TypeScript will make reasonable default assumptions about what you intend the type of an initialized variable to be and type it accordingly. Once you get used to TypeScript, you'll definitely want to rely on inference more to avoid over-typing your code, but as you first get used to it, go ahead and be overly defensive in your programming by typing anything that could benefit from it for now. Once you get the hang of it, you can (and should) start to rely on inference a lot more.
 - At it's best, TypeScript is as specific as possible while still offering all the freedom you need for any given operation. We practiced this in the lab, in particular with the `gradeLevel` challenge. The idea of being exactly as specific as possible while still anticipating all expected scenarios is broadly referred to as "narrowing" - [read more](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) in the docs.
 - One thing TypeScript doesn't automatically protect against is `null` or `undefined`. A function that is passed `null` as an argument but is expecting a number won't throw an error until runtime. Being more strict about [how to handle undefined and null](https://www.typescriptlang.org/docs/handbook/2/narrowing.html) in TypeScript can be powerful, and the docs even include a configuration you can add to enforce that practice.
