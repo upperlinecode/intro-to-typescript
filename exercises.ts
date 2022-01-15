@@ -16,7 +16,7 @@ Is Open: true
 
 // Example:
 let yearsOpen: number = 0;
-// Please type the following
+// Please add type tp the following
 let nameOfShop = "Marina's Magical Memories";
 let monthlyRent = 3500;
 let cashOnHand = 10000;
@@ -54,6 +54,8 @@ A shelf which will have room for tons of items - not technically infinite, but f
 Go ahead and type them and then run the tests below to ensure that you've done so correctly.
 */
 
+// ==== YOUR ANSWER HERE ==== //
+
 // If done correctly, the following lines of code should run without any issues.
 // displayWindow = ["Rubik's Cube", "EZ Bake Oven", "Kitty Carryall Doll"];
 // shelf = [];
@@ -88,20 +90,15 @@ A Product must have:
 Create your interface for a Product below.
 */
 
-interface Product {
-  name: string;
-  price: number;
-  qty: number;
-  sale: boolean;
-}
+// ==== YOUR ANSWER HERE ==== //
 
 // If you've done this correctly, the following code should work without error:
-let product1: Product = {
-  name: "Care Bear",
-  price: 19.99,
-  qty: 2,
-  sale: false,
-};
+// let product1: Product = {
+//   name: "Care Bear",
+//   price: 19.99,
+//   qty: 2,
+//   sale: false,
+// };
 
 // The following should all cause problems.
 // let product2: Product = {
@@ -134,7 +131,7 @@ Create a gradeLevel type that can be either a string, the numbers 9, 10, 11, or 
 
 */
 
-type gradeLevel = 9 | 10 | 11 | 12 | string | false;
+// ==== YOUR ANSWER HERE ==== //
 
 // If you've done this correctly, the following code will run without error.
 // let student1Grade: gradeLevel = 9;
@@ -159,29 +156,23 @@ Here's what a Student should have:
 - Store Credit ()
 */
 
-interface Student {
-  firstName: string;
-  lastName: string | null;
-  email: string;
-  grade: gradeLevel;
-  credit: number;
-}
+// ==== YOUR ANSWER HERE ==== //
 
 // You'll know you've done this correctly if the following code runs without error
-let student1: Student = {
-  firstName: "Kamaya",
-  lastName: null,
-  email: "test123@gmail.com",
-  grade: 10,
-  credit: 100,
-};
-let student2: Student = {
-  firstName: "Andres",
-  lastName: "Ramirez",
-  email: "test123@aol.com",
-  grade: "eleventh",
-  credit: 0,
-};
+// let student1: Student = {
+//   firstName: "Kamaya",
+//   lastName: null,
+//   email: "test123@gmail.com",
+//   grade: 10,
+//   credit: 100,
+// };
+// let student2: Student = {
+//   firstName: "Andres",
+//   lastName: "Ramirez",
+//   email: "test123@aol.com",
+//   grade: "eleventh",
+//   credit: 0,
+// };
 
 // If you've done this correctly, each of the following should trigger an error:
 // let student3: Student = {
@@ -206,21 +197,11 @@ Let's also build some helper functions for Marina's checkout process:
 The computeTax function that takes in a number as an argument and returns that number with an 8.25% tax rate, rounded to two decimal places.
 */
 
-const computeTax = (price: number): number => {
-  if (price < 0) {
-    throw new Error("Negative price detected - something went wrong!");
-  }
-  if (!price) {
-    throw new Error("No price entered - something went wrong!");
-  }
-  let taxed = price * 1.0825;
-  taxed = Math.round(taxed * 100) / 100;
-  return taxed;
-};
+// ==== YOUR ANSWER HERE ==== //
 
 // Done correctly, your computeTax function will accept the following:
-console.log(computeTax(23));
-console.log(computeTax(125.5));
+// console.log(computeTax(23));
+// console.log(computeTax(125.5));
 
 // Done correctly, TypeScript will throw an error here:
 // console.log(computeTax(true));
@@ -236,18 +217,11 @@ Let's also build a canAfford function that takes in a student and a product as a
 
 */
 
-const canAfford = (customer: Student, product: Product): boolean => {
-  const budget = customer.credit;
-  const { price } = product;
-  if (price <= budget) {
-    return true;
-  }
-  return false;
-};
+// ==== YOUR ANSWER HERE ==== //
 
 // Should return true and false, respectively
-console.log(canAfford(student1, product1));
-console.log(canAfford(student2, product1));
+// console.log(canAfford(student1, product1));
+// console.log(canAfford(student2, product1));
 
 // Should trigger errors
 // canAfford(27, 40);
