@@ -1,0 +1,21 @@
+{
+  "name": "intro-to-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "play": "tsc exercises.ts && node exercises.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/upperlinecode/intro-to-typescript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/upperlinecode/intro-to-typescript/issues"
+  },
+  "homepage": "https://github.com/upperlinecode/intro-to-typescript#readme"
+}
