@@ -4,6 +4,13 @@
 
 ## Objectives
 
+- Learn to add type annotations to variables.
+- Create typed arrays and tuples.
+- Practice narrowing primitive types to more specific values using unions and literals.
+- Create type interfaces and write instances of objects that conform to those interfaces.
+- Create type aliases and know when to use them.
+- Specify parameter and return types in function signatures.
+
 ## Why?
 
 This lab is designed to help provide a quick intro to some of the most important and useful pieces of TypeScript.
