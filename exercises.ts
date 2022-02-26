@@ -22,7 +22,7 @@ let monthlyRent = 3500;
 let cashOnHand = 10000;
 let isOpen = true;
 
-// If you've done this successfully, all the following lines of code should cause problems:
+// If you've done this successfully, all the following lines of code should cause compilation errors. Uncomment them to see what happens:
 // yearsOpen = "Two";
 // nameOfShop = true;
 // cashOnHand = "A lot";
@@ -42,7 +42,7 @@ let chosenColor: string = "Salmon";
 
 // Uncomment the code below to see if your revision worked:
 // chosenColor = "LightSeaGreen"; // Should work
-// chosenColor = "Blue"; // Should raise a problem
+// chosenColor = "Blue"; // Should raise an error
 
 // ==== EXERCISE 3 ==== //
 /* 
@@ -68,7 +68,7 @@ Go ahead and type them and then run the tests below to ensure that you've done s
 //   "Lego set",
 // ];
 
-// If done correctly, the following lines of code should all cause problems.
+// If done correctly, the following lines of code should all raise errors.
 // displayWindow = 3;
 // displayWindow = "Buzz Lightyear";
 // displayWindow = [];
@@ -100,7 +100,7 @@ Create your interface for a Product below.
 //   sale: false,
 // };
 
-// The following should all cause problems.
+// The following should all raise errors.
 // let product2: Product = {
 //   name: "Bratz Doll",
 // };
@@ -120,12 +120,12 @@ Create your interface for a Product below.
 
 // ==== EXERCISE 5 ==== //
 /* TYPE ALIASES
-Marina's also planning to create a student discount program, and two local high schools have agreed to let her use their apis to confirm that a student goes their school, provided the student has agreed to share that info.
+Marina's also planning to create a student discount program, and two local high schools have agreed to let her use their APIs to confirm that a student goes their school, provided the student has agreed to share that info.
 
 Unfortunately, the two schools return the data differently - one school sends back a word like "ninth" or "eleventh"
 the other school sends back a number: either 9, 10, 11, or 12.
 
-Even more frustratingly, if the student doesn't attend school there, or of they haven't consented to share the data, the apis will return false.
+Even more frustratingly, if the student doesn't attend school there, or of they haven't consented to share the data, the APIs will return false.
 
 Create a gradeLevel type that can be either a string, the numbers 9, 10, 11, or 12, or false (but not true).
 
@@ -139,7 +139,7 @@ Create a gradeLevel type that can be either a string, the numbers 9, 10, 11, or 
 // student1Grade = "ninth";
 // student1Grade = false;
 
-// If your gradeLevel type alias is correct, the following code should cause problems.
+// If your gradeLevel type alias is correct, the following code should raise errors.
 // let student2Grade: gradeLevel = 4;
 // student2Grade = true;
 // student2Grade = [];
@@ -153,7 +153,7 @@ Here's what a Student should have:
 - Last name (which they don't have to provide)
 - Email
 - Grade (all the above rules apply)
-- Store Credit ()
+- Store Credit
 */
 
 // ==== YOUR ANSWER HERE ==== //
