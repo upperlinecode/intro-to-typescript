@@ -227,3 +227,6 @@ Let's also build a canAfford function that takes in a student and a product as a
 // canAfford(27, 40);
 // canAfford("Daniel Howard", "Buzz Lightyear");
 // canAfford(27, "Rubik's Cube");
+
+// This empty export is included because TypeScript's most common implementation requires an export in every .ts file
+export {};
