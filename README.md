@@ -44,7 +44,7 @@ As you'll learn by completing this lab, TypeScript doesn't rob developers of fle
 
 This lab has been tested in VSCode. You're welcome to run it elsewhere if you like, but the instructions are written with the assumption that you're operating on your code in the VSCode IDE. Since VSCode and TypeScript are both maintained by Microsoft, it is the recommended configuration.
 
-You'll need the TypeScript compiler to test your code, so before starting, make sure it's installed by running `tsc --version`. If TypeScript is not yet installed, be sure to run `npm install -g tsc` to have access to it.
+You'll need the TypeScript compiler to test your code, so before starting, make sure it's installed by running `tsc --version`. If TypeScript is not yet installed, be sure to run `npm install -g typescript` to have access to it.
 
 Getting Started:
 
