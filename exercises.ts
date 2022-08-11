@@ -53,8 +53,8 @@ A shelf which will have room for tons of items - not technically infinite, but f
 
 Go ahead and type them and then run the tests below to ensure that you've done so correctly.
 */
-type displayWindow = [string, string, string];
-type shelf = string[];
+let displayWindow: [string, string, string];
+let shelf: string[];
 
 // If done correctly, the following lines of code should run without any issues.
 // displayWindow = ["Rubik's Cube", "EZ Bake Oven", "Kitty Carryall Doll"];
