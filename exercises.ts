@@ -17,10 +17,10 @@ Is Open: true
 // Example:
 let yearsOpen: number = 0;
 // Please type the following
-let nameOfShop = "Marina's Magical Memories";
-let monthlyRent = 3500;
-let cashOnHand = 10000;
-let isOpen = true;
+let nameOfShop: string = "Marina's Magical Memories";
+let monthlyRent: number = 3500;
+let cashOnHand: number = 10000;
+let isOpen: boolean = true;
 
 // If you've done this successfully, all the following lines of code should cause problems:
 // yearsOpen = "Two";
@@ -38,7 +38,7 @@ Anything outside of her three pre-selected color modes (Salmon, LightSeaGreen, a
 Update her code so that chosenColor can't just be any string - it has to be one of those three string literals. 
 */
 
-let chosenColor: string = "Salmon";
+let chosenColor: "Salmon" | "LightSeaGreen" | "Ivory" = "Salmon";
 
 // Uncomment the code below to see if your revision worked:
 // chosenColor = "LightSeaGreen"; // Should work
@@ -53,6 +53,8 @@ A shelf which will have room for tons of items - not technically infinite, but f
 
 Go ahead and type them and then run the tests below to ensure that you've done so correctly.
 */
+type displayWindow = [string, string, string];
+type shelf = string[];
 
 // If done correctly, the following lines of code should run without any issues.
 // displayWindow = ["Rubik's Cube", "EZ Bake Oven", "Kitty Carryall Doll"];
