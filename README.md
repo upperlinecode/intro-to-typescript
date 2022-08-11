@@ -68,7 +68,7 @@ If you've already worked in TypeScript extensively before, you may be able to un
 
 If you learn best by reading documentation first, then be sure to read the linked resources before attempting the corresponding challenges:
 
-- Exercise 1: [Basic Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean)
+- Exercise 1: [Basic Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#the-primitives-string-number-and-boolean) & [Type Annotations](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#type-annotations-on-variables)
 - Exercise 2: [Literal Types](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#literal-types)
 - Exercise 3: [Arrays](https://www.tutorialsteacher.com/typescript/typescript-array) and [Tuples](https://www.typescriptlang.org/docs/handbook/2/objects.html#tuple-types)
 - Exercise 4: [Interfaces](https://www.typescriptlang.org/docs/handbook/2/everyday-types.html#interfaces)
